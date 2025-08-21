@@ -1,0 +1,40 @@
+1. Define a class Student with attributes name, roll_number, and marks.
+Implement a method display_info() that prints the details of the student.
+Create an instance of Student and call the display_info() method to display
+the student's details.
+
+2. Create a base class Animal with a method speak() that prints "Animal makes
+a sound". Derive a class Dog from Animal and override the speak() method
+to print "Dog barks". Instantiate the Dog class and call its speak() method.
+
+3. Define a class BankAccount with private attributes account_number and
+balance. Implement methods to deposit and withdraw money, ensuring that
+the balance cannot go below zero. Provide a method to get the account
+details. Test the class by performing deposit and withdrawal operations.
+
+4. Create a base class Shape with a method area(). Derive two classes
+Rectangle and Circle from Shape. Implement the area() method in both
+derived classes. Instantiate Rectangle and Circle, and demonstrate
+polymorphism by calling their area() methods.
+
+5. Define a class Person with attributes name and age. Derive a class Employee
+from Person with additional attributes employee_id and salary. Implement a
+method display_employee() in Employee that prints all the details. Create an
+instance of Employee and display the information.
+
+6. Define a class Vector with attributes x and y. Overload the + operator to add
+two Vector objects. Implement the __add__() method and test it by adding
+two Vector instances.
+
+7. Create a class Book with attributes title and author. Overload the __str__()
+method to return a string representation of the Book object in the format
+"Title by Author". Test this method by printing a Book instance.
+
+8. Define a class Time with attributes hours, minutes, and seconds. Overload
+the == operator to compare two Time objects for equality. Implement the
+__eq__() method and test it by comparing two Time instances.
+
+9. Define a class Person with attributes name and age. Define another class
+Address with attributes street, city, and zipcode. Create a Contact class that
+contains an instance of Person and Address. Implement methods to display
+the contact details. Create a Contact object and display its information.
